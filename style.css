@@ -93,6 +93,7 @@ nav a:hover { color: var(--accent); }
   text-transform: uppercase;
 }
 
+
 .hero h1 {
   margin: 0;
   font-family: "Amasis MT Pro Medium", serif;
@@ -100,6 +101,15 @@ nav a:hover { color: var(--accent); }
   font-size: clamp(4rem, 11vw, 8rem);
   line-height: .9;
   letter-spacing: .08em;
+}
+
+.hero h1 .logo-r,
+.hero h1 .logo-a {
+  display: inline-block;
+}
+
+.hero h1 .logo-a {
+  margin-left: -.10em;
 }
 .hero-copy {
   margin: 22px 0 28px;
