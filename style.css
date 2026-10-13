@@ -92,9 +92,13 @@ nav a:hover { color: var(--accent); }
   letter-spacing: .18em;
   text-transform: uppercase;
 }
+
 .hero h1 {
   margin: 0;
-  font: 700 clamp(4rem, 11vw, 8rem)/.9 Inter, sans-serif;
+  font-family: "Amasis MT Pro Medium", serif;
+  font-weight: 500;
+  font-size: clamp(4rem, 11vw, 8rem);
+  line-height: .9;
   letter-spacing: .08em;
 }
 .hero-copy {
